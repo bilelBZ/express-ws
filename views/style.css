@@ -1,0 +1,90 @@
+body {
+  font-family: "Lobster", cursive;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-top: 35px;
+  color: rgb(235, 207, 163);
+}
+p {
+  color: rgb(179, 170, 156);
+}
+.home-container {
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid rgb(180, 177, 177);
+}
+ul {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+  width: 400px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(231, 220, 220);
+}
+a:hover {
+  color: orange;
+}
+.services-title {
+  text-align: center;
+  margin-top: 20px;
+  color: papayawhip;
+}
+.services_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+.contact_container {
+  text-align: center;
+}
+.contact-form .input_text,
+.contact-form textarea {
+  width: 50%;
+  height: 25px;
+  margin: 10px 0;
+  background-color: #353b48;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+.messageZone {
+  min-height: 200px;
+  resize: vertical;
+}
+.contact-form .btn {
+  width: 180px;
+  background-color: transparent;
+  color: #d2f7ff;
+  font-size: 16px;
+  border: 2px solid #09323b;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.contact-form .btn:hover {
+  background-color: #1e525e;
+  color: #fff;
+}
+.not-found {
+  display: grid;
+  place-items: center;
+  margin-top: 200px;
+}
